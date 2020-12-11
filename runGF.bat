@@ -1,3 +1,3 @@
 git add .
 git commit -m "novedades"
-git push -u origin master
+git push -f origin master
