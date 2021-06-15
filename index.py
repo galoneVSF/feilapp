@@ -10,7 +10,7 @@ with open("data.json", "r") as file:
 def transform(text_file_contents):
     return text_file_contents.replace("=", ",")
 
-app = Flask(__name__)
+#app = Flask(__name__)
 app = Flask(__name__, static_url_path='')
 
 @app.route('/')
