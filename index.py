@@ -1,5 +1,5 @@
 # GitHub
-from flask import Flask, make_response, request, send_from_directory
+from flask import Flask, make_response, request
 import json
 
 dataJS = ""
@@ -14,6 +14,10 @@ def transform(text_file_contents):
 app = Flask(__name__, static_url_path='')
 
 @app.route('/')
+def root():
+    return app.send_static_file('introNew.html')
+
+@app.route('/html')
 def index():
     return """
         <html>
@@ -30,9 +34,6 @@ def index():
 
 #    return "Veremos que pasa, aguante Aka!!!! <a href='dataMayor/RESUMEN_ContextoActualEcommerce.xlsx' >Repo</a> <a href='RESUMEN_ContextoActualEcommerce.rar' >RepoRar</a>"
 
-@app.route('/html')
-def html():
-    return app.send_static_file('introNew.html')
 
 @app.route('/data')
 def data():
