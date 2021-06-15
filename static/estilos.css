@@ -1,0 +1,1939 @@
+/*** INTRO NEW ***/
+		  @font-face{
+					font-family: 'Guthen';
+					src: url('https://www.movistar.com.ar/documents/10180/36682980/Guthen-Bloots-Basic.woff');
+				  }
+				  
+			.aui .footer-wrapper:after { /*** ELIMINA LINEA FOOTER ***/
+				background: none !important;
+			}	  
+		  @media (max-width: 990px){
+		  .aui .navigation__wrapper.sinmenu {
+			  position: fixed;
+			  box-shadow: 0px 7px 8px -5px rgba(0, 0, 0, 0.1);
+			}
+		  }
+		  
+		  @media only screen and (min-width: 993px){
+			.aui body {
+				padding-top: 80px!important;
+			}
+
+		  }
+
+		  @media (max-width: 991px){
+		  	.c_planes_new_2{
+				margin-top: -24px !important;
+		  	}
+		  }
+		  
+		  .aui .navigation__wrapper.sinmenu .navigation__container{
+			justify-content: space-between;
+			display: flex;
+		  
+		  }
+		  .aui .navigation__wrapper.sinmenu{
+			position: fixed !important;
+		  }
+		  .contactWrapper{
+			  align-self: center;
+		  }
+		  .contactWrapper .contactInfo{
+			  font-size: 16px;
+			  color: #50535A;
+			  float: left;
+			  text-align: left;
+			  font-family: 'telefonica';
+			  font-weight: 300;
+		  }
+		  .contactWrapper .contactInfo .bold{
+		  
+			  font-family: 'telefonica';
+			  font-weight: 700;
+		  }
+		  .contactWrapper .contactTitle {
+			font-family:'telefonica';
+			  font-size: 28px;
+			  line-height: 65px;
+		  }
+		  
+		  @media(min-width: 993px){
+			 .aui #category-1 .c-plan.m-planes.version-alt:nth-child(5) .c-plan__header {
+				background-color: #5BC500 !important;
+			 }
+			 .aui #category-1 .c-plan.m-planes.version-alt:nth-child(5) .c-plan__ca a{
+				 background-color: #5BC500 !important;
+			 }
+		  }
+		  .aui #category-1 .c-plan.m-planes.version-alt:nth-child(6) .c-plan__header{
+			  background-color: #c7e6f1 !important;
+		  }
+		  .aui #category-1 .c-plan.m-planes.version-alt:nth-child(6) .recommended{
+			background-color: #c7e6f1 !important;
+		  }
+		  a.c-plan__get.btn.z-depth-0.waves-effect.btn-ctc.greenbut{
+			background:#00a9e0!important;
+		  }
+		  
+		  @media(max-width:768px){
+		  .aui #category-1 .c-plan.m-planes.version-alt:nth-child(6) .c-plan__header {
+		  background-color: #fff !important;
+		  }
+		  }
+		  
+		  
+		  span.bg {
+			  position: absolute;
+			  background-color: #2FB8E9;
+			  height: 80px;
+			  right: 0;
+			  width: 43%;
+			  top: 0;
+			  z-index: 0;
+			  border-radius: 0 0 0 200px;
+		  }
+		  @media(max-width:993px){
+		   span.bg {
+			width:81%;
+		   }
+		  }
+		  @media(max-width:768px){
+			span.bg {
+			  width: 65%;
+			  height:64px
+			}
+		  }
+		  
+		  .contactWrapper .contactInfo{
+			color:#fff !important;
+		  }
+		  .contactWrapper .contactTitle{
+			color:#fff !important;
+		  }
+
+
+		  .aui p{
+			margin-bottom: auto;
+		}
+		.imgSenora{
+			width: 365px;
+		}
+		.hero__item.intro_new {
+			background-image: url('https://www.movistar.com.ar/documents/10180/52205167/TA-3037-img-dkp1920-cambiodeplan.jpg');
+			background-size: cover;
+			background-repeat: no-repeat;
+			background-position: 40% center ;
+
+		}
+		.hero__item-title{
+			font-size: 42px !important;
+			line-height: 42px !important;
+			color:#5a5e65 !important;
+		}
+		.hero__item-subtitle{
+			font-size: 18px !important;
+			line-height: 24px !important;
+			color:#5a5e65 !important;
+		}
+		.aui .hero-ingresar__container{
+			
+		}
+		.width100{
+			width: 100%;
+		}
+		.aui .hero-ingresar__container .hero-ingresar__box {
+  background-color: #fff;
+  border-radius: 20px;
+  border: 1px solid #e9eae8;
+  padding:20px;
+  display: block;
+  text-align: left;
+}
+.inlineBlock{
+  display: inline-block;
+  
+}
+/*.iconito{
+  width: 25px;
+  height: 25px !important;
+  vertical-align: super;
+}*/
+.mr20{
+  margin-right: 20px;
+}
+.flechita{
+  width: 8px;
+  float: right;
+  margin-top: 10%;
+  height: 17px !important;
+}
+.espaciado{
+  margin: 35px auto !important;
+}
+.aui .hero.hero-404.c_intro_new{
+  height: 450px;
+}
+.aui .hero.hero-404.c_intro_new .hero__item{
+  height: 450px;
+}
+.aui .navigation__logo--svg {
+  fill: currentColor;
+  color: #019DF4;
+  max-width: 43px;
+}
+.cont_txt_box {
+  position: relative;
+  max-width: 500px !important;
+  width: 100%;
+  margin: 0 auto;
+}
+.tit_cambio { 
+  color: #FFF;
+  font-family: 'Guthen';
+  font-size: 90px;
+  letter-spacing: 1px;
+}
+.texto_cambio {
+  color: #FFF;
+  margin-top: 20px;
+} 
+@media (min-width: 1450px){
+  .btnAbsolute{
+	  right: 0% !important;
+  }
+  .aui .hero.hero-404.c_intro_new{
+  height: 550px;
+}
+.aui .hero.hero-404.c_intro_new .hero__item{
+  height: 550px;
+  padding-top: 120px !important;
+}
+}
+@media (max-width: 991px){
+  .aui .hero.hero-404.c_intro_new .hero__content-wraper {
+  margin-top: 6% !important;
+  }
+}
+@media only screen and (min-width: 993px){
+.aui .hero__item.intro_new {
+  
+  padding-top: 70px !important;
+}}
+.aui .footer-wrapper.sinmenu {
+  padding-bottom: 0px !important;
+}
+@media (max-width: 768px){
+  .aui .hero.hero-404.c_intro_new{
+  height: 450px;
+}
+.aui .hero.hero-404.c_intro_new .hero__item{
+  height: 450px;
+}
+.imgSenora{
+  width: 250px;
+}
+}
+.text30{
+  font-size: 30px;
+  line-height: 30px;
+}
+.text51{
+  font-size: 51px;
+  line-height: 51px;
+}
+.fontAzul{
+  color: #019DF4 !important;
+}
+.bold{
+  font-weight: bold;
+}
+.fondoAzul{
+  background-color: #019DF4 !important; 
+}
+.fondoVioleta{
+  background-color: #E63780 !important;
+}
+.redondo{
+  border-radius: 30px !important;
+}
+.campoTexto{
+  border-radius: 30px !important;
+  height: 40px !important;
+  width: 500px !important;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25) !important;
+  border:1px solid #ccc !important;
+  text-align: center !important;
+}
+.campoTexto:focus{
+  outline: 0px !important;
+}
+.btnAbsolute{
+  position: absolute;
+  height: 40px !important;
+  margin-top: 0px !important;
+  right: 0%;
+  max-width: 134px !important;
+}
+.mb0{
+  margin-bottom: 0px !important;
+}
+.mb10{
+  margin-bottom: 10px !important;
+}
+.mb20{
+  margin-bottom: 20px !important;
+}
+@media only screen and (min-width: 993px)
+{.aui .hero__item.intro_new {
+  padding-top: 70px !important;
+}}
+@media (max-width: 768px){
+  /* header mobile */
+  .aui .navigation__wrapper.sinmenu{
+	  position: relative !important;
+  }
+  body {
+  margin-top: 0px!important;
+}
+
+.aui .hero.hero-404.c_intro_new .hero__content-wraper {
+  margin-top: 10% !important;
+  }
+
+.hero__item.intro_new {
+			background-image: url('https://www.movistar.com.ar/documents/10180/52205167/TA-3035-img-mobile-cambiodeplan.jpg');
+			background-size: cover;
+			background-repeat: no-repeat;
+			background-position: center ;
+
+		}
+
+		.tit_cambio {
+			font-size: 50px;
+		}
+/*header mobile*/
+
+  .text30{
+	  font-size: 20px;
+	  line-height: 20px;
+  }
+  .text51{
+	  font-size: 43px;
+	  line-height: 43px;
+  }
+  .btn{
+	  width: fit-content !important;
+  }
+  .campoTexto{
+	  width: 100% !important;
+	  padding-left: 10px !important;
+	  text-align: left !important;
+  }
+  .btnAbsolute{
+	  right: 0%;
+  }
+
+
+}
+
+
+/***  FIN INTRO NEW ***/
+
+
+.aui body {
+    padding-top: 50px;
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
+
+.aui body {
+    padding-top: 0px !important;
+margin-top: 0px !important;
+}
+}
+ 
+
+
+
+/*** PLANES NEW 2 ***/
+
+
+@media (max-width: 990px){
+	.aui .navigation__wrapper.sinmenu {
+		position: fixed;
+		box-shadow: 0px 7px 8px -5px rgba(0, 0, 0, 0.1);
+	  }
+	}
+	
+	@media only screen and (min-width: 993px){
+	  .aui body {
+		  padding-top: 80px!important;
+	  }
+	}
+	
+	.aui .navigation__wrapper.sinmenu .navigation__container{
+	  justify-content: space-between;
+	  display: flex;
+	
+	}
+	.aui .navigation__wrapper.sinmenu{
+	  position: fixed !important;
+	}
+	.contactWrapper{
+		align-self: center;
+	}
+	.contactWrapper .contactInfo{
+		font-size: 16px;
+		color: #50535A;
+		float: left;
+		text-align: left;
+		font-family: 'telefonica';
+		font-weight: 300;
+	}
+	.contactWrapper .contactInfo .bold{
+	
+		font-family: 'telefonica';
+		font-weight: 700;
+	}
+	.contactWrapper .contactTitle {
+	  font-family:'telefonica';
+		font-size: 28px;
+		line-height: 65px;
+	}
+	
+	@media(min-width: 993px){
+	   .aui #category-1 .c-plan.m-planes.version-alt:nth-child(5) .c-plan__header {
+		  background-color: #5BC500 !important;
+	   }
+	   .aui #category-1 .c-plan.m-planes.version-alt:nth-child(5) .c-plan__ca a{
+		   background-color: #5BC500 !important;
+	   }
+	}
+	.aui #category-1 .c-plan.m-planes.version-alt:nth-child(6) .c-plan__header{
+		background-color: #c7e6f1 !important;
+	}
+	.aui #category-1 .c-plan.m-planes.version-alt:nth-child(6) .recommended{
+	  background-color: #c7e6f1 !important;
+	}
+	a.c-plan__get.btn.z-depth-0.waves-effect.btn-ctc.greenbut{
+	  background:#00a9e0!important;
+	}
+	
+	@media(max-width:768px){
+	.aui #category-1 .c-plan.m-planes.version-alt:nth-child(6) .c-plan__header {
+	background-color: #fff !important;
+	}
+	}
+	
+	
+	span.bg {
+		position: absolute;
+		background-color: #2FB8E9;
+		height: 80px;
+		right: 0;
+		width: 43%;
+		top: 0;
+		z-index: 0;
+		border-radius: 0 0 0 200px;
+	}
+	@media(max-width:993px){
+	 span.bg {
+	  width:81%;
+	 }
+	}
+	@media(max-width:768px){
+	  span.bg {
+		width: 65%;
+		height:64px
+	  }
+	}
+	
+	.contactWrapper .contactInfo{
+	  color:#fff !important;
+	}
+	.contactWrapper .contactTitle{
+	  color:#fff !important;
+	}
+
+	.imgSenora{
+		width: 365px;
+	}
+	.hero__item-title{
+		font-size: 42px !important;
+		line-height: 42px !important;
+		color:#5a5e65 !important;
+	}
+	.hero__item-subtitle{
+		font-size: 18px !important;
+		line-height: 24px !important;
+		color:#5a5e65 !important;
+	}
+	.aui .hero-ingresar__container{
+		
+	}
+	.width100{
+		width: 100%;
+	}
+	.aui .hero-ingresar__container .hero-ingresar__box {
+background-color: #fff;
+border-radius: 20px;
+border: 1px solid #e9eae8;
+padding:20px;
+display: block;
+text-align: left;
+}
+.inlineBlock{
+display: inline-block;
+
+}
+.iconito{
+width: 22px;
+
+vertical-align: super;
+}
+.mr20{
+margin-right: 20px;
+}
+.flechita{
+width: 8px;
+float: right;
+margin-top: 10%;
+height: 17px !important;
+}
+.espaciado{
+margin: 35px auto !important;
+}
+.aui .hero.hero-404.c_planes_new_2{
+height: auto;
+max-height: 120%;
+margin-bottom: 0;
+}
+.aui .hero.hero-404.c_planes_new_2 .hero__item.planes_new_2{
+height: auto;
+max-height: 100%;
+margin-bottom: 0;
+}
+.aui .navigation__logo--svg {
+fill: currentColor;
+color: #019DF4;
+max-width: 43px;
+}
+@media (max-width: 991px)
+{.aui .hero.hero-404.c_planes_new_2 .hero__content-wraper {
+margin-top: 60px !important;
+}}
+@media only screen and (min-width: 993px){
+.aui .hero__item.planes_new_2 {
+
+padding-top: 60px !important;
+}}
+.aui .footer-wrapper.sinmenu {
+padding-bottom: 0px !important;
+}
+@media (max-width: 768px){
+.aui .hero.hero-404.c_planes_new_2{
+height: auto;
+}
+.aui .hero.hero-404.c_planes_new_2 .hero__item.planes_new_2{
+height: auto;
+}
+.imgSenora{
+width: 250px;
+}
+.planes_new_2 .text-left {
+	text-align: left !important;
+}
+.planes_new_2 .text14 {
+	font-size: 14px !important;
+	line-height: 14px !important;
+}
+}
+
+/*steps styles*/
+
+.circulito{
+padding: 5px 10px;
+border-radius: 20px;
+margin:0px 5px;
+}
+.fondoAzul{
+background-color: #019DF4 !important;
+}
+.circulito.fondoAzul{
+color: #fff;
+}
+.flechita1{
+width: 12px;
+vertical-align: middle;
+}
+.inlineBlock{
+display: inline-block;
+}
+.ml10{
+margin-left: 15px !important;
+color: #4f535a !important;
+}
+.textNormal{
+color: #50535a;
+}
+.avance{
+border-radius: 20px;
+padding: 5px 10px;
+background: #019DF4;
+}
+
+@media (max-width: 768px){
+.circulito{
+margin: 0px;
+}
+}
+/*steps styles*/
+
+
+.boxMain{
+border-radius: 10px;
+box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+background: #fff;
+max-width: 530px;
+padding: 50px 100px;
+margin: 0 auto;
+}
+
+.text24{
+font-size: 24px;
+line-height: 24px;
+}
+.fontAzul{
+color: #019DF4 !important;
+}
+.bold{
+font-weight: bold;
+}
+.underline{
+text-decoration: underline;
+color: #019DF4;
+font-size: 16px;
+}
+.redondo{
+border-radius: 30px !important;
+}
+.inputMain{
+background: #f5f5f5;
+text-align: center;
+border-radius: 10px;
+border:1px solid #ccc;
+width: 200px;
+padding: 10px 20px;
+
+}
+.btnBlue{
+width: 170px !important;
+height: 40px !important;
+line-height: 28px !important;
+}
+.mb20{
+margin-bottom: 20px !important;
+}
+.inputMain:focus{
+outline: none !important;
+}
+@media(max-width: 768px){
+
+
+.boxMain{
+padding: 20px 10px;
+}
+.text24{
+font-size: 20px;
+}
+
+
+}
+
+
+/*plan*/
+.boxPlan{
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  max-width: 228px;
+  background-color: #fff;
+  margin: 0px auto 10px auto !important;
+}
+.boxHeader{
+  padding: 35px 20px 49px;
+  text-align: center;
+  min-height: 129px;
+}
+.boxHeaderPromo{
+  padding: 10px 20px 10px;
+  text-align: center;
+  min-height: 129px;
+}
+.bonete{
+  padding: 5px 10px;
+  color: #fff;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  text-align: center;
+  max-width: 228px;
+  margin:0px auto;
+}
+.gigas{
+  color: #fff;
+  font-size: 45px;
+  line-height: 45px;
+}
+.frase_desc { 
+  font-size: 20px; 
+  font-weight: bold; 
+  color: #FFF; 
+  padding-top: 5px; 
+  padding-bottom: 5px; 
+}
+.texto_mas {
+  font-size: 14px;
+  color: #FFF;
+  line-height: 1.1;
+}
+.s_mas {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 0.5;
+}
+.frase_exclusivo {
+  font-weight: 300;
+  font-size: 12px;
+}
+.boxPrice{
+  background-color: #f5f5f5 !important;
+  border-radius: 8px;
+  padding: 5px;
+}
+.boxContent{
+  padding: 10px;
+  text-align: center;
+}
+.text16{
+  font-size: 16px;
+  line-height: 16px;
+}
+.text14{
+  font-size: 14px;
+  line-height: 14px;
+}
+.fondoAzulOscuro{
+  background-color: #0b2739 !important;
+}
+.text38{
+  font-size: 38px;
+  line-height: 38px;
+}
+.text18{
+  font-size: 18px;
+  line-height: 18px;
+}
+.boxRow{
+  margin: 20px 0px;
+  border-bottom:2px solid #f5f5f5;
+
+}
+.iconito{
+  display: inline-block;
+  vertical-align: middle;
+}
+.text-left{
+  text-align: left;
+}
+.fondoAzulIntermedio{
+  background-color: #0379bb !important;
+}
+.fontWhite{
+  color: #fff !important;
+}
+.rowMob{
+  margin:0px !important;
+  display: flex;
+}
+.mb0{
+  margin-bottom: 0px !important
+}
+.padd20{
+  padding: 20px 0px !important;
+}
+.padd0{
+  padding: 0px !important;
+}
+.width70{
+  width: 70% !important;
+  max-width: 980px !important;
+}
+.fondoVerde{
+  background-color: #5cb615 !important;
+}
+.fondoRosa{
+  background-color: #E63780 !important;
+}
+.estrella{
+  width: 14px;
+}
+.redondo{
+  border-radius: 30px !important;
+}
+.separador{
+  border-left: 1px solid #ccc;
+}
+@media (max-width: 768px){
+  .btn{
+	  max-width: 200px !important;
+  }
+  /* header mobile */
+.aui .navigation__wrapper.sinmenu{
+  position: relative !important;
+}
+body {
+margin-top: 0px!important;
+}
+/*header mobile*/
+  .separador{
+  border-left: none;
+}
+  .width70{
+  width: 100% !important;
+}
+  .aui .hero.hero-404{
+height: 1900px;
+max-height: 1900px !important;
+}
+.aui .hero.hero-404 .hero__item{
+height: 1900px;
+max-height: 1900px !important;
+}
+  .aui .hero__content-wraper{
+	  top: 0% !important;
+  }
+  .gigas{
+	  font-size: 34px;
+	  line-height: 34px;
+  }
+  .text38{
+	  font-size: 32px;
+	  line-height: 32px;
+
+  }
+  .text18{
+	  font-size: 16px;
+	  line-height: 16px;
+  }
+
+  .bonete{
+	  max-width: 100%;
+  }
+  .boxPlan{
+	  max-width: 100%;
+	  margin: 0px auto 40px auto !important;
+  }
+
+  .texto_mas {
+	  color: #0b2739;
+	  font-size: 16px;
+	  padding-top: 10px;
+	  padding-bottom: 10px;
+  }
+  .s_mas { 
+	  line-height: 1.1; 
+	  font-size: 18px;
+  }
+  .frase_exclusivo {
+	  font-size: 16px;
+  }
+
+}
+
+
+
+/*** FIN PLANES NEW 2 ***/	
+
+
+/*** STEP 2 NEW ***/
+
+@media (max-width: 990px){
+	.aui .navigation__wrapper.sinmenu {
+		position: fixed;
+		box-shadow: 0px 7px 8px -5px rgba(0, 0, 0, 0.1);
+	  }
+	}
+	
+	@media only screen and (min-width: 993px){
+	  .aui body {
+		  padding-top: 80px!important;
+	  }
+	}
+	
+	.aui .navigation__wrapper.sinmenu .navigation__container{
+	  justify-content: space-between;
+	  display: flex;
+	
+	}
+	.aui .navigation__wrapper.sinmenu{
+	  position: fixed !important;
+	}
+	.contactWrapper{
+		align-self: center;
+	}
+	.contactWrapper .contactInfo{
+		font-size: 16px;
+		color: #50535A;
+		float: left;
+		text-align: left;
+		font-family: 'telefonica';
+		font-weight: 300;
+	}
+	.contactWrapper .contactInfo .bold{
+	
+		font-family: 'telefonica';
+		font-weight: 700;
+	}
+	.contactWrapper .contactTitle {
+	  font-family:'telefonica';
+		font-size: 28px;
+		line-height: 65px;
+	}
+	
+	@media(min-width: 993px){
+	   .aui #category-1 .c-plan.m-planes.version-alt:nth-child(5) .c-plan__header {
+		  background-color: #5BC500 !important;
+	   }
+	   .aui #category-1 .c-plan.m-planes.version-alt:nth-child(5) .c-plan__ca a{
+		   background-color: #5BC500 !important;
+	   }
+	}
+	.aui #category-1 .c-plan.m-planes.version-alt:nth-child(6) .c-plan__header{
+		background-color: #c7e6f1 !important;
+	}
+	.aui #category-1 .c-plan.m-planes.version-alt:nth-child(6) .recommended{
+	  background-color: #c7e6f1 !important;
+	}
+	a.c-plan__get.btn.z-depth-0.waves-effect.btn-ctc.greenbut{
+	  background:#00a9e0!important;
+	}
+	
+	@media(max-width:768px){
+	.aui #category-1 .c-plan.m-planes.version-alt:nth-child(6) .c-plan__header {
+	background-color: #fff !important;
+	}
+	}
+	
+	
+	span.bg {
+		position: absolute;
+		background-color: #2FB8E9;
+		height: 80px;
+		right: 0;
+		width: 43%;
+		top: 0;
+		z-index: 0;
+		border-radius: 0 0 0 200px;
+	}
+	@media(max-width:993px){
+	 span.bg {
+	  width:81%;
+	 }
+	}
+	@media(max-width:768px){
+	  span.bg {
+		width: 65%;
+		height:64px
+	  }
+	}
+	
+	.contactWrapper .contactInfo{
+	  color:#fff !important;
+	}
+	.contactWrapper .contactTitle{
+	  color:#fff !important;
+	}
+
+
+	@font-face{
+		font-family: 'Guthen';
+		src: url('https://www.movistar.com.ar/documents/10180/36682980/Guthen-Bloots-Basic.woff');
+	  }
+		.imgSenora{
+			width: 365px;
+		}
+		.hero__item-title{
+			font-size: 42px !important;
+			line-height: 42px !important;
+			color:#5a5e65 !important;
+		}
+		.hero__item-subtitle{
+			font-size: 18px !important;
+			line-height: 24px !important;
+			color:#5a5e65 !important;
+		}
+		.aui .hero-ingresar__container{
+			
+		}
+		.width100{
+			width: 100%;
+		}
+		.aui .hero-ingresar__container .hero-ingresar__box {
+  background-color: #fff;
+  border-radius: 20px;
+  border: 1px solid #e9eae8;
+  padding:20px;
+  display: block;
+  text-align: left;
+}
+.inlineBlock{
+  display: inline-block;
+  
+}
+.iconito{
+  width: 25px;
+  height: 25px !important;
+  vertical-align: super;
+}
+.mr20{
+  margin-right: 20px;
+}
+.flechita{
+  width: 8px;
+  float: right;
+  margin-top: 10%;
+  height: 17px !important;
+}
+.espaciado{
+  margin: 35px auto !important;
+}
+.aui .hero.hero-404.c_step_2_new{
+  height: 550px;
+}
+.aui .hero.hero-404.c_step_2_new .hero__item.step_2_new{
+  height: 550px;
+}
+.aui .navigation__logo--svg {
+  fill: currentColor;
+  color: #019DF4;
+  max-width: 43px;
+}
+.frase_pin {
+  font-family: 'Guthen';
+  font-size: 50px;
+  margin-bottom: 10px;
+  line-height: 50px;
+  
+}
+@media (max-width: 991px)
+{.aui .hero.hero-404.c_step_2_new .hero__content-wraper {
+  margin-top: 0px !important;
+}}
+@media only screen and (min-width: 993px){
+.aui .hero__item.step_2_new {
+  
+  padding-top: 80px !important;
+}}
+.aui .footer-wrapper.sinmenu {
+  padding-bottom: 0px !important;
+}
+@media (max-width: 768px){
+  .aui .hero.hero-404.c_step_2_new{
+  height: 550px;
+}
+.aui .hero.hero-404.c_step_2_new .hero__item.step_2_new{
+  height: 550px;
+}
+.imgSenora{
+  width: 250px;
+}
+}
+
+  /*steps styles*/
+
+.circulito{
+  padding: 5px 10px;
+  border-radius: 20px;
+  margin:0px 5px;
+}
+.fondoAzul{
+  background-color: #019DF4 !important;
+}
+.circulito.fondoAzul{
+  color: #fff;
+}
+.flechita1{
+  width: 12px;
+  vertical-align: middle;
+}
+.inlineBlock{
+  display: inline-block;
+}
+.ml10{
+  margin-left: 15px !important;
+}
+.textNormal{
+  color: #50535a !important;
+}
+.avance{
+  border-radius: 20px;
+  padding: 5px 10px;
+  background: #019DF4;
+}
+@media (max-width: 768px){
+  .circulito{
+  margin: 0px;
+}
+}
+/*steps styles*/
+
+  
+.boxMain{
+  border-radius: 10px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  background: #fff;
+  max-width: 530px;
+  padding: 50px 100px;
+  margin: 0 auto;
+}
+
+.text24{
+  font-size: 24px;
+  line-height: 24px;
+}
+.fontAzul{
+  color: #019DF4 !important;
+}
+.bold{
+  font-weight: bold;
+}
+.underline{
+  text-decoration: underline;
+  color: #019DF4;
+  font-size: 16px;
+}
+.redondo{
+  border-radius: 30px !important;
+}
+.inputMain{
+  background: #f5f5f5 !important;
+  text-align: center !important;
+  border-radius: 10px !important;
+  border:1px solid #ccc !important;
+  width: 200px !important;
+  padding: 20px !important;
+
+}
+.btnBlue{
+  width: 170px !important;
+  height: 40px !important;
+  line-height: 28px !important;
+}
+.mb20{
+  margin-bottom: 20px !important;
+}
+.inputMain:focus{
+  outline: none !important;
+}
+@media (min-width: 1450px){
+  /*.btnAbsolute{
+	  right: 30.5% !important;
+  }*/
+  .aui .hero.hero-404.c_step_2_new{
+  height: 650px;
+}
+.aui .hero.hero-404.c_step_2_new .hero__item.step_2_new{
+  height: 650px;
+  padding-top: 100px !important;
+}
+}
+@media(max-width: 768px){
+  /* header mobile */
+  .aui .navigation__wrapper.sinmenu{
+	  position: relative !important;
+  }
+  body {
+  margin-top: 0px!important;
+}
+/*header mobile*/
+
+
+.boxMain{
+  padding: 20px 10px;
+}
+.text24{
+  font-size: 20px;
+}
+
+
+}	
+
+
+/*** FIN STEP 2 NEW ***/
+
+/*** STEP 4 NEW ***/
+
+@media (max-width: 990px){
+	.aui .navigation__wrapper.sinmenu {
+		position: fixed;
+		box-shadow: 0px 7px 8px -5px rgba(0, 0, 0, 0.1);
+	  }
+	}
+	
+	@media only screen and (min-width: 993px){
+	  .aui body {
+		  padding-top: 80px!important;
+	  }
+	}
+	
+	.aui .navigation__wrapper.sinmenu .navigation__container{
+	  justify-content: space-between;
+	  display: flex;
+	
+	}
+	.aui .navigation__wrapper.sinmenu{
+	  position: fixed !important;
+	}
+	.contactWrapper{
+		align-self: center;
+	}
+	.contactWrapper .contactInfo{
+		font-size: 16px;
+		color: #50535A;
+		float: left;
+		text-align: left;
+		font-family: 'telefonica';
+		font-weight: 300;
+	}
+	.contactWrapper .contactInfo .bold{
+	
+		font-family: 'telefonica';
+		font-weight: 700;
+	}
+	.contactWrapper .contactTitle {
+	  font-family:'telefonica';
+		font-size: 28px;
+		line-height: 65px;
+	}
+	
+	@media(min-width: 993px){
+	   .aui #category-1 .c-plan.m-planes.version-alt:nth-child(5) .c-plan__header {
+		  background-color: #5BC500 !important;
+	   }
+	   .aui #category-1 .c-plan.m-planes.version-alt:nth-child(5) .c-plan__ca a{
+		   background-color: #5BC500 !important;
+	   }
+	}
+	.aui #category-1 .c-plan.m-planes.version-alt:nth-child(6) .c-plan__header{
+		background-color: #c7e6f1 !important;
+	}
+	.aui #category-1 .c-plan.m-planes.version-alt:nth-child(6) .recommended{
+	  background-color: #c7e6f1 !important;
+	}
+	a.c-plan__get.btn.z-depth-0.waves-effect.btn-ctc.greenbut{
+	  background:#00a9e0!important;
+	}
+	
+	@media(max-width:768px){
+	.aui #category-1 .c-plan.m-planes.version-alt:nth-child(6) .c-plan__header {
+	background-color: #fff !important;
+	}
+	}
+	
+	
+	span.bg {
+		position: absolute;
+		background-color: #2FB8E9;
+		height: 80px;
+		right: 0;
+		width: 43%;
+		top: 0;
+		z-index: 0;
+		border-radius: 0 0 0 200px;
+	}
+	@media(max-width:993px){
+	 span.bg {
+	  width:81%;
+	 }
+	}
+	@media(max-width:768px){
+	  span.bg {
+		width: 65%;
+		height:64px
+	  }
+	}
+	
+	.contactWrapper .contactInfo{
+	  color:#fff !important;
+	}
+	.contactWrapper .contactTitle{
+	  color:#fff !important;
+	}
+
+	@font-face{
+		font-family: 'Guthen';
+		src: url('https://www.movistar.com.ar/documents/10180/36682980/Guthen-Bloots-Basic.woff');
+	  }
+		.imgSenora{
+			width: 365px;
+		}
+		.hero__item-title{
+			font-size: 42px !important;
+			line-height: 42px !important;
+			color:#5a5e65 !important;
+		}
+		.hero__item-subtitle{
+			font-size: 18px !important;
+			line-height: 24px !important;
+			color:#5a5e65 !important;
+		}
+		.aui .hero-ingresar__container{
+			
+		}
+		.width100{
+			width: 100% !important;
+		}
+		.aui .hero-ingresar__container .hero-ingresar__box {
+  background-color: #fff;
+  border-radius: 20px;
+  border: 1px solid #e9eae8;
+  padding:20px;
+  display: block;
+  text-align: left;
+}
+.inlineBlock{
+  display: inline-block;
+  
+}
+.iconito{
+  width: 25px;
+  height: 25px !important;
+  vertical-align: super;
+}
+.mr20{
+  margin-right: 20px;
+}
+.flechita{
+  width: 8px;
+  float: right;
+  margin-top: 10%;
+  height: 17px !important;
+}
+.espaciado{
+  margin: 35px auto !important;
+}
+.aui .hero.hero-404.c_step_4_new{
+  height: 600px;
+}
+.aui .hero.hero-404.c_step_4_new .hero__item.step_4_new{
+  height: 600px;
+  padding-top: 0px !important;
+}
+.aui .navigation__logo--svg {
+  fill: currentColor;
+  color: #019DF4;
+  max-width: 43px;
+}
+.frase_pin {
+  font-family: 'Guthen';
+  font-size: 50px;
+  margin-bottom: 10px;
+  line-height: 50px;
+  
+}
+@media (max-width: 991px)
+{.aui .hero.hero-404.c_step_4_new .hero__content-wraper {
+  margin-top: 0px !important;
+}}
+@media only screen and (min-width: 993px){
+.aui .hero__item.step_4_new {
+  
+  padding-top: 120px !important;
+}}
+.aui .footer-wrapper.sinmenu {
+  padding-bottom: 0px !important;
+}
+@media (max-width: 768px){
+  .aui .hero.hero-404.c_step_4_new{
+  height: 550px;
+  margin-top: 0px !important;
+}
+.aui .hero.hero-404.c_step_4_new .hero__item.step_4_new{
+  height: 550px;
+  padding-top: 0px !important;
+}
+.imgSenora{
+  width: 250px;
+}
+}
+
+  /*steps styles*/
+
+.circulito{
+  padding: 5px 10px;
+  border-radius: 20px;
+  margin:0px 5px;
+}
+.fondoAzul{
+  background-color: #019DF4 !important;
+}
+.circulito.fondoAzul{
+  color: #fff;
+}
+.flechita1{
+  width: 12px;
+  vertical-align: middle;
+}
+.inlineBlock{
+  display: inline-block;
+}
+.ml10{
+  margin-left: 15px !important;
+}
+.textNormal{
+  color: #50535a !important;
+}
+.avance{
+  border-radius: 20px;
+  padding: 5px 10px;
+  background: #019DF4;
+}
+@media (max-width: 768px){
+  .circulito{
+  margin: 0px;
+}
+}
+/*steps styles*/
+
+  
+.boxMain{
+  border-radius: 10px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  background: #fff;
+  max-width: 530px;
+  padding: 50px;
+  margin: 0 auto;
+}
+
+.text24{
+  font-size: 24px;
+  line-height: 24px;
+}
+.fontAzul{
+  color: #019DF4 !important;
+}
+.bold{
+  font-weight: bold;
+}
+.underline{
+  text-decoration: underline;
+  color: #019DF4;
+  font-size: 16px;
+}
+.redondo{
+  border-radius: 30px !important;
+}
+.inputMain{
+  background: #f5f5f5 !important;
+  text-align: center !important;
+  border-radius: 10px !important;
+  border:1px solid #ccc !important;
+  width: 200px !important;
+  padding:20px !important;
+
+}
+.btnBlue{
+  width: 170px !important;
+  height: 40px !important;
+  line-height: 28px !important;
+}
+.mb20{
+  margin-bottom: 20px !important;
+}
+.inputMain:focus{
+  outline: none !important;
+}
+@media(max-width: 768px){
+
+
+.boxMain{
+  padding: 20px 10px;
+}
+.text24{
+  font-size: 20px;
+}
+
+
+}
+
+  
+/*plan anterior*/
+
+.contAzul{
+  background: #019DF4;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+.text36{
+  font-size: 36px;
+  line-height: 36px;
+}
+.fontWhite{
+  color: #fff;
+}
+.text20{
+  font-size: 20px;
+  line-height: 20px;
+}
+.text32{
+  font-size: 32px;
+  line-height: 32px;
+}
+.text18{
+  font-size: 18px;
+  line-height: 18px;
+}
+.borderLeft{
+  border-left: 3px solid #fff;
+}
+.vAlignM{
+  display: inline-block;
+  vertical-align: super;
+}
+.mb0{
+  margin-bottom: 0px !important;
+}
+.text14{
+  font-size: 14px;
+  line-height: 14px;
+}
+.mtop25{
+  margin-top: 25px;
+}
+.text-left{
+  text-align: left;
+}
+.padd0{
+  padding: 0px !important;
+}
+.mLeft20Mob{
+  margin-left: 10px;
+}
+
+@media(max-width: 768px){
+  /* header mobile */
+  .aui .navigation__wrapper.sinmenu{
+	  position: relative !important;
+  }
+  body {
+  margin-top: 0px!important;
+}
+/*header mobile*/
+
+  .aui .hero.hero-404.c_step_4_new .hero__content-wraper{
+	  top: -11%;
+  }
+  .mLeft20Mob{
+  margin-left: 10px;
+}
+  .text36{
+	  font-size: 28px;
+	  line-height: 28px;
+  }
+  .text20{
+	  font-size: 14px;
+	  line-height: 14px;
+  }
+  .text32{
+	  font-size: 20px;
+	  line-height: 20px;
+  }
+  .text14{
+	  font-size: 12px;
+	  line-height: 12px;
+  }
+  .aui .hero.hero-404.c_step_4_new .hero__content-wraper{
+	  padding: 0px !important;
+  }
+  .contAzul{
+	  padding: 20px 0px !important;
+	  margin-top: -40px !important;
+  }
+  .vAlignM{
+  display: inline-block;
+  vertical-align: bottom;
+}
+.text-leftMob{
+  text-align: left;
+}
+.text-left{
+  text-align: center !important;
+}
+.btnBlue{
+  margin-top: 0px !important;
+}
+}@media (min-width: 1450px){
+  /*.btnAbsolute{
+	  right: 30.5% !important;
+  }*/
+  .aui .hero.hero-404.c_step_4_new{
+  height: 700px;
+}
+.aui .hero.hero-404.c_step_4_new .hero__item.step_4_new{
+  height: 700px;
+}
+.contMainMob{
+  padding-top: 70px !important;
+}
+}
+
+/*** FIN STEP 4 NEW ***/
+
+
+/*** STEP 5 NEW ***/
+
+@media (max-width: 990px){
+	.aui .navigation__wrapper.sinmenu {
+		position: fixed;
+		box-shadow: 0px 7px 8px -5px rgba(0, 0, 0, 0.1);
+	  }
+	}
+	
+	@media only screen and (min-width: 993px){
+	  .aui body {
+		  padding-top: 80px!important;
+	  }
+	}
+	
+	.aui .navigation__wrapper.sinmenu .navigation__container{
+	  justify-content: space-between;
+	  display: flex;
+	
+	}
+	.aui .navigation__wrapper.sinmenu{
+	  position: fixed !important;
+	}
+	.contactWrapper{
+		align-self: center;
+	}
+	.contactWrapper .contactInfo{
+		font-size: 16px;
+		color: #50535A;
+		float: left;
+		text-align: left;
+		font-family: 'telefonica';
+		font-weight: 300;
+	}
+	.contactWrapper .contactInfo .bold{
+	
+		font-family: 'telefonica';
+		font-weight: 700;
+	}
+	.contactWrapper .contactTitle {
+	  font-family:'telefonica';
+		font-size: 28px;
+		line-height: 65px;
+	}
+	
+	@media(min-width: 993px){
+	   .aui #category-1 .c-plan.m-planes.version-alt:nth-child(5) .c-plan__header {
+		  background-color: #5BC500 !important;
+	   }
+	   .aui #category-1 .c-plan.m-planes.version-alt:nth-child(5) .c-plan__ca a{
+		   background-color: #5BC500 !important;
+	   }
+	}
+	.aui #category-1 .c-plan.m-planes.version-alt:nth-child(6) .c-plan__header{
+		background-color: #c7e6f1 !important;
+	}
+	.aui #category-1 .c-plan.m-planes.version-alt:nth-child(6) .recommended{
+	  background-color: #c7e6f1 !important;
+	}
+	a.c-plan__get.btn.z-depth-0.waves-effect.btn-ctc.greenbut{
+	  background:#00a9e0!important;
+	}
+	
+	@media(max-width:768px){
+	.aui #category-1 .c-plan.m-planes.version-alt:nth-child(6) .c-plan__header {
+	background-color: #fff !important;
+	}
+	}
+	
+	
+	span.bg {
+		position: absolute;
+		background-color: #2FB8E9;
+		height: 80px;
+		right: 0;
+		width: 43%;
+		top: 0;
+		z-index: 0;
+		border-radius: 0 0 0 200px;
+	}
+	@media(max-width:993px){
+	 span.bg {
+	  width:81%;
+	 }
+	}
+	@media(max-width:768px){
+	  span.bg {
+		width: 65%;
+		height:64px
+	  }
+	}
+	
+	.contactWrapper .contactInfo{
+	  color:#fff !important;
+	}
+	.contactWrapper .contactTitle{
+	  color:#fff !important;
+	}
+
+@font-face{
+	font-family: 'Guthen';
+	src: url('https://www.movistar.com.ar/documents/10180/36682980/Guthen-Bloots-Basic.woff');
+  }
+	.imgSenora{
+		width: 365px;
+	}
+	.hero__item.step_5_new-title{
+		font-size: 42px !important;
+		line-height: 42px !important;
+		color:#5a5e65 !important;
+	}
+	.hero__item.step_5_new-subtitle{
+		font-size: 18px !important;
+		line-height: 24px !important;
+		color:#5a5e65 !important;
+	}
+	.aui .hero-ingresar__container{
+		
+	}
+	.width100{
+		width: 100%;
+	}
+	.aui .hero-ingresar__container .hero-ingresar__box {
+background-color: #fff;
+border-radius: 20px;
+border: 1px solid #e9eae8;
+padding:20px;
+display: block;
+text-align: left;
+}
+.inlineBlock{
+display: inline-block;
+
+}
+.iconito{
+width: 25px;
+height: 25px !important;
+vertical-align: super;
+}
+.mr20{
+margin-right: 20px;
+}
+.flechita{
+width: 8px;
+float: right;
+margin-top: 10%;
+height: 17px !important;
+}
+.espaciado{
+margin: 35px auto !important;
+}
+.aui .hero.hero-404.c_step_5_new{
+height: 550px;
+}
+.aui .hero.hero-404.c_step_5_new .hero__item.step_5_new{
+height: 550px;
+}
+.aui .navigation__logo--svg {
+fill: currentColor;
+color: #019DF4;
+max-width: 43px;
+}
+.frase_plan {
+font-size: 26px;
+}
+.plan_ideal {
+font-size: 44px; 
+font-family: 'Guthen';
+
+}
+.texto_confirmacion {
+font-size: 18px;
+}
+.bot_app {
+font-weight: 700;
+}
+@media (max-width: 991px)
+{.aui .hero.hero-404.c_step_5_new .hero__content-wraper {
+margin-top: 0px !important;
+}}
+@media only screen and (min-width: 993px){
+.aui .hero__item.step_5_new {
+
+padding-top: 120px !important;
+}}
+.aui .footer-wrapper.sinmenu {
+padding-bottom: 0px !important;
+}
+@media (max-width: 768px){
+.aui .hero.hero-404.c_step_5_new{
+height: 500px;
+}
+.aui .hero.hero-404.c_step_5_new .hero__item.step_5_new{
+height: 500px;
+}
+.imgSenora{
+width: 250px;
+}
+}
+
+/*steps styles*/
+
+.circulito{
+padding: 5px 10px;
+border-radius: 20px;
+margin:0px 5px;
+}
+.fondoAzul{
+background-color: #019DF4 !important;
+}
+.circulito.fondoAzul{
+color: #fff;
+}
+.flechita1{
+width: 12px;
+vertical-align: middle;
+}
+.inlineBlock{
+display: inline-block;
+}
+.ml10{
+margin-left: 15px;
+}
+.textNormal{
+color: #50535a;
+}
+.avance{
+border-radius: 20px;
+padding: 5px 10px;
+background: #019DF4;
+}
+@media (max-width: 768px){
+.circulito{
+margin: 0px;
+}
+}
+/*steps styles*/
+
+
+.boxMain{
+border-radius: 10px;
+box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+background: #fff;
+max-width: 530px;
+padding: 50px 50px;
+margin: 0 auto;
+}
+
+.text24{
+font-size: 24px;
+line-height: 24px;
+}
+.fontAzul{
+color: #019DF4 !important;
+}
+.bold{
+font-weight: bold;
+}
+.underline{
+text-decoration: underline;
+color: #019DF4;
+font-size: 16px;
+}
+.redondo{
+border-radius: 30px !important;
+}
+.inputMain{
+background: #f5f5f5;
+text-align: center;
+border-radius: 10px;
+border:1px solid #ccc;
+width: 200px;
+padding: 10px 20px;
+
+}
+.btnBlue{
+width: 170px !important;
+height: 40px !important;
+line-height: 28px !important;
+}
+.mb20{
+margin-bottom: 20px !important;
+}
+.inputMain:focus{
+outline: none !important;
+}
+@media(max-width: 768px){
+/* header mobile */
+.aui .navigation__wrapper.sinmenu{
+  position: relative !important;
+}
+.frase_plan {
+	font-size: 20px;
+}
+.plan_ideal {
+	font-size: 34px;
+}
+body {
+margin-top: 0px!important;
+}
+/*header mobile*/
+
+.boxMain{
+padding: 20px 10px;
+}
+.text24{
+font-size: 20px;
+}
+
+
+}
+
+
+/*last step*/
+.check{
+width: 52px;
+}
+.text44{
+font-size: 44px;
+line-height: 44px;
+}
+.mt20{
+margin-top: 20px;
+}
+.mb0{
+margin-bottom: 0px !important;
+}
+.mb8{
+margin-bottom: 8px !important;
+}
+@media (min-width: 1450px){
+
+.aui .hero.hero-404.c_step_5_new{
+height: 600px;
+}
+.aui .hero.hero-404.c_step_5_new .hero__item.step_5_new{
+height: 600px;
+padding-top: 120px !important;
+}
+}
+
+
+
+/*** FIN STEP 5 NEW ***/
