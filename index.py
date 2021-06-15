@@ -11,13 +11,9 @@ def transform(text_file_contents):
     return text_file_contents.replace("=", ",")
 
 #app = Flask(__name__)
-app = Flask(__name__, static_url_path='')
+app = Flask(__name__, static_url_path='/static')
 
 @app.route('/')
-def root():
-    return app.send_static_file('introNew.html')
-
-@app.route('/html')
 def index():
     return """
         <html>
