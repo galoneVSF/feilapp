@@ -1,11 +1,14 @@
 # GitHub
-from flask import Flask
+from flask import Flask, make_response, request
 import json
 
 dataJS = ""
 
 with open("data.json", "r") as file:
     dataJS = json.load(file)
+
+def transform(text_file_contents):
+    return text_file_contents.replace("=", ",")
 
 app = Flask(__name__)
 
