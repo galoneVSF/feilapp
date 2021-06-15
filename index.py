@@ -11,6 +11,7 @@ def transform(text_file_contents):
     return text_file_contents.replace("=", ",")
 
 app = Flask(__name__)
+app = Flask(__name__, static_url_path='')
 
 @app.route('/')
 def index():
@@ -28,6 +29,10 @@ def index():
     """
 
 #    return "Veremos que pasa, aguante Aka!!!! <a href='dataMayor/RESUMEN_ContextoActualEcommerce.xlsx' >Repo</a> <a href='RESUMEN_ContextoActualEcommerce.rar' >RepoRar</a>"
+
+@app.route('/html')
+def html():
+    return app.send_static_file('introNew.html')
 
 @app.route('/data')
 def data():
